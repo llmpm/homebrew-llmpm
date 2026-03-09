@@ -3,8 +3,8 @@ class Llmpm < Formula
 
   desc "Command-line package manager for large language models"
   homepage "https://llmpm.co"
-  url "https://files.pythonhosted.org/packages/9d/0e/7d6d1520ec7ab0d59c988443e719e4888c3275b5a85a172a6ea15bd76f2c/llmpm-2.2.3.tar.gz"
-  sha256 "745d5d57b681c118f15044a8270a18311b6241003a56a87bc531e849befb1fd3"
+  url "https://files.pythonhosted.org/packages/96/a8/e5c19c5e5a06b3b36e49025c929262c452e270d8a072098c969c49f2ef78/llmpm-3.0.1.tar.gz"
+  sha256 "79fc9dccdc0816231f114c6f789bb8cbb6ed0cf35acb15a6cf04b16f51b2c3b7"
   license "MIT"
 
   # Only the lightweight CLI deps are installed here.
