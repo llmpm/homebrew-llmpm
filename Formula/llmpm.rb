@@ -3,8 +3,8 @@ class Llmpm < Formula
 
   desc "Command-line package manager for large language models"
   homepage "https://llmpm.co"
-  url "https://files.pythonhosted.org/packages/c5/3e/1c6af050c186240780117a33a3c462fe668e475161e0bbbeee1de0e57b2a/llmpm-3.1.3.tar.gz"
-  sha256 "871b918945b6440c582ce0e4c1772cd061289dc1eabccdb09fc20a76b7e28186"
+  url "https://files.pythonhosted.org/packages/a6/3d/35cbaa3d5a018df0694981dc3ae61ff5cccd2cac71f3d9d9d8e81258842e/llmpm-3.1.4.tar.gz"
+  sha256 "51018341a5a4a2a3fb9af6599bdc179a956258127efbf4104135a06d5cb08618"
   license "MIT"
 
   # Only the lightweight CLI deps are installed here.
@@ -13,8 +13,8 @@ class Llmpm < Formula
   depends_on "python@3.12"
 
   resource "llmpm" do
-      url "https://files.pythonhosted.org/packages/c5/3e/1c6af050c186240780117a33a3c462fe668e475161e0bbbeee1de0e57b2a/llmpm-3.1.3.tar.gz"
-      sha256 "871b918945b6440c582ce0e4c1772cd061289dc1eabccdb09fc20a76b7e28186"
+      url "https://files.pythonhosted.org/packages/a6/3d/35cbaa3d5a018df0694981dc3ae61ff5cccd2cac71f3d9d9d8e81258842e/llmpm-3.1.4.tar.gz"
+      sha256 "51018341a5a4a2a3fb9af6599bdc179a956258127efbf4104135a06d5cb08618"
     end
 
   def install
